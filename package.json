@@ -1,0 +1,29 @@
+{
+  "name": "kolmi-server",
+  "version": "1.0.0",
+  "description": "Server for the Kolmi video call app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vntero/kolmi-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vntero/kolmi-server/issues"
+  },
+  "homepage": "https://github.com/vntero/kolmi-server#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "socket.io": "^4.5.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
